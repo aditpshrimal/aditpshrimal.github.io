@@ -72,12 +72,18 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
-/* body {
+/* 
+body {
 	text-align: justify;
   } */
   
-
+  p {
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+  }
+  
 /* Basic */
 
 	html {
@@ -248,7 +254,7 @@ input, select, textarea {
 		text-align: center;
 	  }
 
-	  
+
 /* Adjust the font size for small screens */
 @media (max-width: 576px) {
   .resize-button {
