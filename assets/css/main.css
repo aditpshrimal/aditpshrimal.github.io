@@ -73,9 +73,9 @@ input, select, textarea {
 	appearance: none;
 }
 
-body {
+/* body {
 	text-align: justify;
-  }
+  } */
   
 
 /* Basic */
@@ -241,6 +241,35 @@ body {
 	.align-right {
 		text-align: right;
 	}
+	.resize-button {
+		min-width: 120px;
+		white-space: nowrap;
+		display: inline-block;
+		text-align: center;
+	  }
+
+	  
+/* Adjust the font size for small screens */
+@media (max-width: 576px) {
+  .resize-button {
+    font-size: 12px;
+  }
+}
+
+/* Adjust the font size for medium screens */
+@media (min-width: 577px) and (max-width: 768px) {
+  .resize-button {
+    font-size: 14px;
+  }
+}
+
+/* Adjust the font size for large screens */
+@media (min-width: 769px) {
+  .resize-button {
+    font-size: 16px;
+  }
+}
+
 
 /* Row */
 
