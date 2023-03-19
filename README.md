@@ -16,7 +16,7 @@ This repository contains the source code for my personal portfolio website, show
 
 - HTML5
 - CSS3
-- JavaScript (optional, if used)
+- JavaScript
 - [Bootstrap](https://getbootstrap.com/)
 - [jQuery](https://jquery.com/)
 
