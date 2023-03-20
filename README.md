@@ -36,4 +36,4 @@ If you have any suggestions or feedback, feel free to open an issue or submit a 
 
 ## License
 
-This project is licensed - see the [LICENSE](hhtml5up.net/license) file for details.
+This project is licensed - see the [LICENSE](https://html5up.net/license) file for details.
