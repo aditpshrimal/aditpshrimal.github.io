@@ -36,4 +36,4 @@ If you have any suggestions or feedback, feel free to open an issue or submit a 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit/) file for details.
+This project is licensed - see the [LICENSE](hhtml5up.net/license) file for details.

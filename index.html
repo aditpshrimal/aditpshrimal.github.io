@@ -10,6 +10,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/1z3mE+3uh57p6fC3WXgquujLgryyR+8mSPIIY" crossorigin="anonymous">
   </head>
   <body class="is-preload">
     <!-- Header -->
@@ -27,6 +28,9 @@
         <ul>
           <li>
             <a href="#one" class="active">About</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
           </li>
           <li>
             <a href="#two">Skills & Capabilities</a>
@@ -78,9 +82,42 @@
               <h2>The Data Explorer</h2>
               <p>Navigating the World of Data Science, Engineering, and Machine Learning.</p>
             </header>
-            <p>Welcome to my website! I am a data professional with experience in data engineering, data science, and machine learning. I have developed data-driven solutions for enterprise data warehouses, built scalable platforms for capturing and analyzing data, and developed algorithms for personalized recommendations. Currently, I am pursuing my M.S. in Data Science from the University of San Francisco, where I am deepening my knowledge in courses like Advanced Machine Learning, Distributed Data Systems, Data Structures & Algorithms, and Relational Databases. On this website, you can learn more about my skills, experience, and interests, and get in touch with me to discuss potential opportunities or collaborations.</p>
+            <p>Welcome to my website! I am a data professional with experience in data engineering, data science, and machine learning. I have developed data-driven solutions for enterprise data warehouses, built scalable platforms for capturing and analyzing data, and developed algorithms for personalized recommendations.<br> Currently, I am pursuing my M.S. in Data Science from the University of San Francisco, where I am deepening my knowledge in courses like Advanced Machine Learning, Distributed Data Systems, Data Structures & Algorithms, and Relational Databases. On this website, you can learn more about my skills, experience, and interests, and get in touch with me to discuss potential opportunities or collaborations.</p>
           </div>
         </section>
+        <!-- Education -->
+        <section id="education">
+          <div class="container">
+            <h3>Education</h3>
+            <div class="degree-list">
+              <div class="degree-item">
+                <h4>M.S. in Data Science</h4>
+                <p><strong>University of San Francisco</strong> | Jul 2022 - Present</p>
+                <p><strong>Relevant Coursework:</strong></p>
+                <ul>
+                  <li>Advanced Machine Learning</li>
+                  <li>Distributed Data Systems</li>
+                  <li>Data Structures & Algorithms</li>
+                  <li>Relational Databases</li>
+                  <li>Experiments in Data Science</li>
+                  <li>Linear Regression</li>
+                </ul>
+              </div>
+              <hr>
+              <div class="degree-item">
+                <h4>B.E. in Computer Engineering</h4>
+                <p><strong>University of Mumbai</strong> | Jul 2015 - May 2018</p>
+                <p><strong>Relevant Coursework:</strong></p>
+                <ul>
+                  <li>Data Structures & Algorithms</li>
+                  <li>Computer Networks</li>
+                  <li>Database Management Systems</li>
+                  <li>Machine Learning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>                
         <!-- Two -->
         <section id="two">
           <div class="container">
@@ -151,6 +188,9 @@
                 <div class="inner">
                   <h4>Product Search Engine</h4>
                   <p>Search engine pipeline using PySpark, MongoDB, and Airflow. The pipeline fetches product data from the ASOS API, stores the data in Google Cloud Storage (GCS), loads the data into MongoDB, and calculates BM25 scores to rank the top 10 items.</p>
+                  <a href="https://github.com/aditpshrimal/ecommerce-product-search-pipeline" target="_blank" class="icon-link">
+                    <i class="fab fa-github"></i>
+                  </a>                  
                 </div>
               </article>
               <article>
@@ -160,6 +200,9 @@
                 <div class="inner">
                   <h4>Dataflow Pipelines</h4>
                   <p>A collection of Apache Beam Dataflow pipelines, demonstrating various use cases for reading, processing, and writing data using Google Cloud Platform services, such as Pub/Sub, BigQuery, and Cloud Storage.</p>
+                  <a href="https://github.com/aditpshrimal/dataflow-templates" target="_blank" class="icon-link">
+                    <i class="fab fa-github"></i>
+                  </a>
                 </div>
               </article>
               <article>
@@ -169,6 +212,9 @@
                 <div class="inner">
 				<h4>JDBC to BigQuery with Encryption</h4>
                   <p>This project demonstrates how to read data from JDBC and write it to BigQuery with encryption using Google Tink and KMS. It also provides an example of how to customize the encryption by specifying the PII columns.</p>
+                  <a href="https://github.com/aditpshrimal/jdbc-to-bigquery-encryption" target="_blank" class="icon-link">
+                    <i class="fab fa-github"></i>
+                  </a>
                 </div>
               </article>
               <article>
@@ -178,6 +224,9 @@
                 <div class="inner">
                   <h4>Recommendation System</h4>
                   <p>Product recommendations for Amazon apparels using content-based recommendation techniques. We explore different text-based approaches to create meaningful recommendations for users based on the textual data associated with each product.</p>
+                  <a href="https://github.com/aditpshrimal/ecommerce-product-recommendation" target="_blank" class="icon-link">
+                    <i class="fab fa-github"></i>
+                  </a>
                 </div>
               </article>
             </div>

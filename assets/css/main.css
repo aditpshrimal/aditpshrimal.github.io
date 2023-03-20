@@ -276,7 +276,90 @@ body {
   }
 }
 
+.icon-link {
+	display: inline-block;
+	font-size: 24px;
+	color: #333;
+	margin-top: 0.5rem;
+	transition: color 0.3s;
+  }
+  
+  .icon-link:hover {
+	color: #4078c0;
+	text-decoration: none;
+  }
 
+  /* .degree-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .degree-list li {
+	margin-bottom: 2rem;
+  }
+  
+  .degree-list h4 {
+	margin-bottom: 0.5rem;
+  } */
+
+  /* .degree-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0;
+	margin: -1rem;
+  }
+  
+  .degree-item {
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	padding: 1rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	margin: 1rem;
+	width: calc(50% - 2rem);
+  }
+  
+  .degree-item h4 {
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+  }
+  
+  .degree-item p {
+	margin-bottom: 0.5rem;
+  } */
+
+  .degree-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .degree-item {
+	margin-bottom: 2em;
+  }
+  
+  .degree-item ul {
+	list-style-type: disc;
+	padding-left: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+  }
+  
+  hr {
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	margin-top: 2em;
+	margin-bottom: 2em;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+	.degree-item {
+	  width: 100%;
+	}
+  }
+  
+  
+  
 /* Row */
 
 	.row {
