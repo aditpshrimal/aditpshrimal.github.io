@@ -6,11 +6,22 @@
 -->
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->s
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MS93CHB45"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-2MS93CHB45');
+    </script>
     <title>Adit Shrimal | Data Professional</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/1z3mE+3uh57p6fC3WXgquujLgryyR+8mSPIIY" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" crossorigin="anonymous">
   </head>
   <body class="is-preload">
     <!-- Header -->
@@ -91,7 +102,7 @@
             <a href="https://github.com/aditpshrimal/" target="_blank" class="icon-link" style="margin-right: 20px; margin-bottom: 25px;">
               <i class="fab fa-github" style="font-size: 30px;"></i>
             </a>
-            <a href="resume.pdf" download="resume" target="_blank" class="button primary resize-button">View Resume</a>
+            <a href="resume.pdf" download="resume" target="_blank" class="button primary resize-button" onclick="gtag('event', 'click', {'event_category' : 'button', 'event_label' : 'View Resume'});">View Resume</a>
           </div>
         </section>
         <!-- Education -->
@@ -198,6 +209,19 @@
             <h3>Projects</h3>
             <p>Here are some of the projects I've worked on:</p>
             <div class="features">
+              <article>
+                <a href="https://only-stats.com/" target="_blank" class="image">
+                  <img src="images/fantasy_league.jpg" alt="" />
+                </a>
+                <div class="inner">
+                  <h4>OnlyStats - Entrepreneurship in Data Science</h4>
+                  <p>As part of a data science entrepreneurship course, collaborated in a team of five to conceptualize, design, and build an MVP for a sports analytics company. The platform serves both B2B and B2C markets, providing data-driven insights to sports franchises and fantasy sports players.</p>
+                  <a href="https://only-stats.com/" target="_blank" class="icon-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </article>
+
               <article>
                 <a href="https://github.com/aditpshrimal/ecommerce-product-search-pipeline" target="_blank" class="image">
                   <img src="images/search.png" alt="" />
